@@ -1,0 +1,93 @@
+ .Products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 8em;
+    overflow: hidden;
+    
+    
+} 
+/*
+
+.Item{
+    
+    margin-left: 3em;
+    margin-bottom: 5em;
+    border-radius: 20px;
+    
+    background-color:rgb(212, 240, 249);
+    box-shadow: 1rem 2rem 1rem slategrey ;
+    transition: transform 0.4s;
+    height:33%;
+    width: 33%;
+}
+
+.Item:hover{
+   transform: scale(1.2);
+}
+
+.img{
+    padding-left: 20%;
+} */
+
+
+
+
+
+
+
+
+
+/* =====================================SHUBHAM================================= */
+
+
+/* .Products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 8em; 
+    margin-left: 2em;
+    margin-right: 2em;
+    overflow: hidden;
+} */
+
+.img{
+   
+    align-items: center;
+	justify-content: center;
+    
+}
+
+.Item{
+    background-color: #e7eff5;
+    padding: 15px 15px 5px 15px;
+    border: 2px solid #d3dee7;
+    margin-bottom: 30px;
+    box-shadow: 0px 5px 5px -2px rgba(0, 0, 0, .10);
+    border-radius: 10px;
+    overflow: hidden;
+    transition-duration: 1s;
+    max-width: 480px;
+    max-height: 480px;
+    
+}
+.Item:hover{
+    transform: scale(1.1);
+}
+.animation{
+    color: rgb(0, 0, 0);
+    opacity: 0;
+    transition-property: all;
+    transition-duration: 1s;
+    transform: translateY(180%)
+    padding 10% 10%;
+    transform: translateY(180%);
+
+}
+
+.Item:hover .animation{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+

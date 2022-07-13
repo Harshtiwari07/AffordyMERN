@@ -1,0 +1,11 @@
+.SignUp_form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+
+}
+
+.SignUp_form > input{
+    margin-bottom: 1.5em;
+}
